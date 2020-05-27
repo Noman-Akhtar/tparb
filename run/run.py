@@ -6,7 +6,7 @@ from cryptofeed.exchanges import Binance as Exchange
 from config import config
 from modules.traingle import Triangle
 
-fee = 0.0 / 100
+fee = 0.01 / 100
 r = 2
 coin_a = 'BTC'
 coin_b = 'USDT'
