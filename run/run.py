@@ -1,7 +1,7 @@
 import ccxt
 import redis
 
-from cryptofeed.exchanges import Huobi as Exchange
+from cryptofeed.exchanges import Binance as Exchange
 
 from config import config
 from modules.traingle import Triangle
@@ -11,7 +11,7 @@ r = 2
 coin_a = 'BTC'
 coin_b = 'USDT'
 tri_coins = [
-    'BTC', 'HT', 'XRP', 'TRX', 'LINK',
+    'ETH', 'XRP', 'TRX', 'LINK',
     'LTC', 'MTL', 'HOT', 'VET', 'ADA',
     'ENJ', 'ETC', 'WAVES', 'NEO', 'XLM',
     'RLC', 'DASH', 'XMR', 'QTUM', 'IOTA',
